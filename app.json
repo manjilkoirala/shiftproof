@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "shift_track",
-    "slug": "shift_track",
+    "name": "ShiftProof",
+    "slug": "shiftproof",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,15 +11,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#147D69",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.shiftproof.app",
+      "versionCode": 1,
+      "allowBackup": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-sqlite", "expo-sharing", "expo-font", "expo-router"],
+    "scheme": "shiftproof"
   }
 }

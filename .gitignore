@@ -39,3 +39,7 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Hosted deployment checkout and packaged output
+/hosted-web/
+/shiftproof-site.tar.gz
