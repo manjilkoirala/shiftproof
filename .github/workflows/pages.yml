@@ -15,7 +15,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      WEB_BASE_PATH: /shiftproof
+      # A custom domain serves the app at / rather than /shiftproof/.
+      WEB_BASE_PATH: ''
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
